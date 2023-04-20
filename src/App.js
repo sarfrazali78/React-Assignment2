@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Invitation from './Invitation/Invitation';
+function App(){
+  const kaam="Birthday party Invitation "
+  const pom="jaGdish@gmail.com"
+  const tic="jaGdish"
+  const tac="birthday party"
+  const ipad="Ritu , Saurabh , Kartik"
+  const mac="Green field Avenue"
+  const jio=" JaGdish"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Invitation kaam={kaam} pom={pom} tic={tic} tac={tac} ipad={ipad} mac={mac} jio={jio}/>
     </div>
   );
 }
