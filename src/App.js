@@ -1,12 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-import NameChanger from './component/Namechanger';
+import Header from './header';
+import Hero from './component/hero';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-    <NameChanger/>
-    </div>
+
+
+<Header/>
+  <Hero/>
+ </div>
+  
   );
 }
 

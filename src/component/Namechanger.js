@@ -1,23 +1,41 @@
-import './Namechanger.css'
-import {Fragment, useState} from 'react'
+// import { Fragment, useState } from 'react'
 
-export default function NameChanger () {
+// export default function Form () {
 
-    const [name , setName] = useState('jai')
-   
+    
+//     const [name , setName] = useState('')
 
-    function handleClick () {
 
-        name === 'jai' ? setName('viru') :  setName('jai')
 
-    }
 
-    return (
-       <Fragment>
-            <h1>my name is {name}</h1>
-            <button onClick={handleClick}>change name</button>
+//     function handleNameChange (event) {
+//         setName(event.target.value)
+//     }
 
-            
-       </Fragment>
-    )
-}
+//     function handleSubmision () {
+        
+//     }
+
+
+
+//     return (
+//        <Fragment>
+//         <h1>my name is sarfraz ali</h1>
+       
+//          <input
+//             className='inputTag'
+//             placeholder='name'
+//             onChange={handleNameChange}
+
+//         />
+
+        
+//         <button onClick={handleSubmision}>
+//             Submit form
+//         </button>
+//        </Fragment>
+
+        
+//     )
+
+// }
